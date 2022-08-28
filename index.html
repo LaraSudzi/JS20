@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="./assets/css/bootstrap.css">
+
+    <!-- FA5 CSS -->
+	<link rel="stylesheet" href="./assets/fa/css/all.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="./assets/css/style.css">
+
+	<title>Индекс массы тела</title>
+
+	<script src="./assets/js/app.js"></script>
+	
+  </head>
+  <body>
+
+	<div class="container d-flex flex-column align-items-center">
+   
+	<div class="container mt-5">
+
+		
+		
+		<h1 class="mb-4">Определить число (простое или нет)</h1>
+	
+		<!-- Input Data Form -->
+		<div class='row row-cols-1 row-cols-lg-4 my-4'>
+			<div class="col m-2">
+				<label class="text-center" for="easyNumberInput">Число</label>
+				<input type="number" class="form-control" id="easyNumberInput" min="1" max="100" value="1">
+			</div>
+
+		</div>
+
+	    <div>	  
+		  <button onclick="action()">Рассчитать</button>
+		
+		<!-- /Input Data Form -->
+	
+		<h3>Ответ: <output id="resultPlace">-</output></h3>
+
+		<h4><output id="variant"></output></h4>
+		
+
+	</div>
+</div>
+   
+  </body>
+</html>
